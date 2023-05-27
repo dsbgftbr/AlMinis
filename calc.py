@@ -11,4 +11,4 @@ def mult(a, b):
 
 
 def divide(a, b):
-    pass
+    return a / b
