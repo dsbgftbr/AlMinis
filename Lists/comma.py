@@ -1,7 +1,3 @@
-spam = ["apples", "bananas", "tofu", "cats"]
-pets = ["fish", "squid", "cats"]
-
-
 def comma_join(strings):
     listlength = len(strings)
 
@@ -12,8 +8,3 @@ def comma_join(strings):
     else:
         mid = ("," if listlength > 3 else "") + " and "
         return ", ".join(strings[:-1]) + mid + strings[-1]
-
-
-print(comma_join(spam))
-print(comma_join(pets))
-print(comma_join([]))
